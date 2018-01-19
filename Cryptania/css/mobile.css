@@ -601,7 +601,11 @@
 	.sec1_6 .flex, .sec1_6_block, .sec1_6_block img{width:100%;}
 }
 
-
+@media(max-width:490px){
+ .header17 {
+ 	top:20%;
+ }
+}
 /*
 *
 *
@@ -1488,6 +1492,7 @@
 */
 
 @media(max-width:1170px){
+	.header17 h1 {font-size: 48px;}
 	.nav17{position:fixed;top:0;background:#fff;height:100%;}
 	.nav17 .nav5_logo, .nav17 .right{display:none;}
 	.nav17 .middle{margin:0;text-align:left;}
