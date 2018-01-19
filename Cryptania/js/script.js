@@ -456,3 +456,21 @@ $('.footer20_map .point').click(function(){
 });
 	$(".sec5_20 h2").animated("fadeIn");
 	$("#smart .left").animated("fadeInLeft");
+
+
+function initMap() {
+        var uluru = {lat: 55.712363, lng: 37.62621690000003};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          title: 'Blockchain Conference',
+          icon: {
+          	url : "i/map-marker.png",
+          	scaledSize: new google.maps.Size(45, 53)
+      	  }
+        });
+      }
