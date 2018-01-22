@@ -1745,9 +1745,6 @@ Landing 3
 	line-height:36px;
 }
 
-.nav3 a:hover{
-	color:#ccc;
-}
 
 .nav3 .left a{
 	margin-right:40px;
@@ -13466,20 +13463,57 @@ Landing 4 - Desktop App
 }
 
 
+.nav3 {
+	text-align: center;
+}
 
 
 
 
 
+.nav3 .wrap-menu a {
+	position: relative;
+	text-transform: uppercase;
+	margin: 0 15px;
+	font-weight: bold;
+}
+
+.nav3 .wrap-menu a::after,
+.nav3 .wrap-menu a::before {
+	content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.5s;
+    z-index: 100;
+
+}
+.nav3 .wrap-menu a::after {
+    bottom: 0;
+    transform: translateY(10px);
+}
 
 
+.nav3 .wrap-menu a::before {
+	top: 0;
+    transform: translateY(-10px);
+}
 
 
+.nav3 .wrap-menu a:hover{
+	
+    
+}
 
 
-
-
-
+.nav3 .wrap-menu a:hover::before,
+.nav3 .wrap-menu a:hover::after {
+    opacity: 1;
+    transform: translateY(0px);
+}
 
 
 
