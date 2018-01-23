@@ -5085,6 +5085,11 @@ Landing 4 - Desktop App
 	background:#222328;
 }
 
+.sec6_8 h2{
+	margin-bottom: 50px;
+}
+
+
 .sec6_8 .switch{
 	margin:40px auto 82px auto;
 }
@@ -5104,6 +5109,7 @@ Landing 4 - Desktop App
 	padding:45px 45px 145px 45px;
 	position:relative;
 	margin-bottom:50px;
+	margin: 0 50px;
 }
 
 .sec6_8_block.white{
