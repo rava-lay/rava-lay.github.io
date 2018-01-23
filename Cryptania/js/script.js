@@ -479,7 +479,7 @@ function initMap() {
 
         });
         var infowindow = new google.maps.InfoWindow({
-            content: 'ыыыыыы'
+            content: 'Cryptania'
       });
         marker.addListener('click', function() {
     	infowindow.open(map, marker);
