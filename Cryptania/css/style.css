@@ -303,7 +303,7 @@ h2.left{
 	height:100%;
 	display:flex;
 	justify-content:space-between;
-	align-items:stretch;
+	align-items:center;
 }
 
 .logo1{
@@ -12922,7 +12922,6 @@ Landing 4 - Desktop App
 }
 
 .sec1_20 .col{
-	text-align:left;
 	width:300px;
 	font-size:28px;
 	line-height:68px;
@@ -12930,7 +12929,6 @@ Landing 4 - Desktop App
 
 .sec1_20 .col.bordered{
 	width:370px;
-	padding-left:65px;
 	border-left:1px solid #dededf;
 	border-right:1px solid #dededf;
 }
