@@ -1964,8 +1964,12 @@ Landing 3
 .sec3_3 .logos img {
 	display: inline-block;
 	width: 200px;
+	margin: 0 20px;
 }
 
+.sec3_3 .logos .row {
+	text-align: center;
+}
 /* Section 4 (3) */
 	
 .sec4_3{
