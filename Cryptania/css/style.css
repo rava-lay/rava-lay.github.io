@@ -1727,15 +1727,9 @@ Landing 3
 	top:60px;
 	left:0;
 	z-index:10;
+	background: transparent;
 }
 
-.nav3 .left{
-	float:left;
-}
-
-.nav3 .right{
-	float:right;
-}
 
 .nav3 a, .nav3 a:focus{
 	display:inline-block;
