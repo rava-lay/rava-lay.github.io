@@ -1964,6 +1964,11 @@ Landing 3
 	margin:60px auto 0 auto;
 }
 
+.sec3_3 .logos img {
+	display: inline-block;
+	width: 200px;
+}
+
 /* Section 4 (3) */
 	
 .sec4_3{
