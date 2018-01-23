@@ -315,7 +315,7 @@ if($('.sec5_12').size()>0){
 // sec4_13 slider
 
 if($('.sec4_13_slider').size()>0){
-	$('.sec4_13_slider ul').bxSlider({pager:false, minSlides:1, maxSlides:5, slideWidth:220, infiniteLoop: false,});
+	$('.sec4_13_slider ul').bxSlider({pager:false, minSlides:1, maxSlides:5, slideWidth:330, infiniteLoop: false,});
 }
 
 // sec7_13 slider
