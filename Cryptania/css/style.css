@@ -12947,6 +12947,11 @@ Landing 4 - Desktop App
 	display:block;
 }
 
+.sec1_20 .col span{
+	white-space: nowrap;
+	display:block;
+}
+
 .sec1_20 .col a, .sec1_20 .col a:focus{
 	display:inline-block;
 	color:#3b55e6;
