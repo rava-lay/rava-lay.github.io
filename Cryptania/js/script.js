@@ -475,7 +475,7 @@ function initMap() {
           	url : "i/map-marker.png",
           	scaledSize: new google.maps.Size(45, 53)
       	  },
-      	  animation: google.maps.Animation.BOUNCE,
+      	  animation: google.maps.Animation.DROP,
 
         });
         var infowindow = new google.maps.InfoWindow({
