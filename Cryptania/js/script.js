@@ -459,7 +459,7 @@ $('.footer20_map .point').click(function(){
 
 
 function initMap() {
-        var uluru = {lat: 55.712363, lng: 37.62621690000003};
+        var uluru = {lat: 51.146661, lng: 71.425438};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 18,
           center: uluru,
@@ -479,7 +479,7 @@ function initMap() {
 
         });
         var infowindow = new google.maps.InfoWindow({
-            content: 'Cryptania'
+            content: 'Comfort Hotel Astana'
       });
         marker.addListener('click', function() {
     	infowindow.open(map, marker);
