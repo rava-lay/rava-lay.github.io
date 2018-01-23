@@ -475,3 +475,4 @@ function initMap() {
         });
       }
 $(".sec6_13_block").equalHeights();
+$(".sec6_13_block .sec1_3_text").equalHeights();
