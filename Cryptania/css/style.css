@@ -68,7 +68,7 @@ a, button, .our_works_bg img, nav, .sec6_2_block, .header3_input_holder, .sec6_5
 
 /* Начальные установки */
 
-body {font-family: Montserrat, Arial, sans-serif;color: #222328; font-size:16px; line-height:1.2; padding: 0; background: #fff; margin: 0 auto;}
+body {-moz-user-select: none;font-family: Montserrat, Arial, sans-serif;color: #222328; font-size:16px; line-height:1.2; padding: 0; background: #fff; margin: 0 auto;}
 body, nav, header, section, footer{width:100%;position:relative;}
 a, a:focus {color:#d01400;text-decoration:none;cursor:pointer;outline:none;}
 a:hover{text-decoration:none;}
