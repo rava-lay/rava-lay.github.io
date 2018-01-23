@@ -315,7 +315,7 @@ if($('.sec5_12').size()>0){
 // sec4_13 slider
 
 if($('.sec4_13_slider').size()>0){
-	$('.sec4_13_slider ul').bxSlider({pager:false, minSlides:1, maxSlides:6, slideWidth:310, infiniteLoop: true,slideMargin: 50});
+	$('.sec4_13_slider ul').bxSlider({pager:false, minSlides:1, maxSlides:6, slideWidth:310, infiniteLoop: false,slideMargin: 50});
 }
 
 // sec7_13 slider
@@ -436,7 +436,7 @@ if($('.sec3_18').size()>0){
 
 if($('.sec8_18_slider').size()>0){
 	if($(window).width()>1170){
-		$('.sec8_18_slider ul').bxSlider({controls:true,pager:false, minSlides:1, maxSlides:2, slideWidth:470, slideMargin:30});
+		$('.sec8_18_slider ul').bxSlider({controls:true,pager:false, minSlides:1, maxSlides:2, slideWidth:470, slideMargin:30, infiniteLoop:false});
 	}
 	if($(window).width()<=1170){
 		$('.sec8_18_slider ul').bxSlider({controls:true,pager:false});
