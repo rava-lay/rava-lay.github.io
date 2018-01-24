@@ -12962,16 +12962,8 @@ Landing 4 - Desktop App
 	opacity:0.7;
 }
 
-.sec1_20 .col a:after{
-	display:block;
-	content:"";
-	width:11px;
-	height:12px;
-	position:absolute;
-	right:0;
-	top:50%;
-	margin-top:-6px;
-	background:url(../i/sec1_20_link_arrow.png) no-repeat 50% 50%;
+.sec1_20 .col a {
+	color: #000;
 }
 
 /* Section 2 (20) */
