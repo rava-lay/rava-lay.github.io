@@ -302,7 +302,7 @@ h2.left{
 .flex{
 	height:100%;
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-around;
 	align-items:center;
 }
 
@@ -5109,7 +5109,6 @@ Landing 4 - Desktop App
 	padding:45px 45px 145px 45px;
 	position:relative;
 	margin-bottom:50px;
-	margin: 0 50px;
 }
 
 .sec6_8_block.white{
@@ -12955,7 +12954,6 @@ Landing 4 - Desktop App
 .sec1_20 .col a, .sec1_20 .col a:focus{
 	display:inline-block;
 	color:#3b55e6;
-	padding-right:25px;
 	position:relative;
 }
 

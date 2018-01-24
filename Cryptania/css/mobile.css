@@ -1766,8 +1766,8 @@
 	.header20{padding-bottom:80px;}
 	.header20_play{width:120px;height:120px;background-size:40px 34px;}
 	.sec1_20{padding:80px 0;}
-	.sec1_20 .flex{display:block;}
-	.sec1_20 .col{display:inline;text-align:center;}
+	.sec1_20 .flex{flex-wrap: wrap;align-content: space-around;}
+	.sec1_20 .col{display:inline;text-align:center;margin: 20px 0;}
 	.sec2_20{padding-top:80px;}
 	.sec4_20_block{width:50%;}
 	.sec6_20{padding:80px 0;}
