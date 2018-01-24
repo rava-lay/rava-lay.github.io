@@ -1946,7 +1946,7 @@ Landing 3
 /* Section 3 (3) */
 	
 .sec3_3{
-	background:#222328 url(../i/bg_sec3_3.jpg) no-repeat 50% 50%;
+	background:#222328;
 	background-size:cover;
 	padding-top:110px;
 	padding-bottom:127px;
@@ -1957,19 +1957,18 @@ Landing 3
 	line-height:52px;
 }
 
-.sec3_3 .logos {
+.sec3_3 .flex {
+	flex-wrap: wrap;
 	margin:60px auto 0 auto;
 }
 
-.sec3_3 .logos img {
+.sec3_3 .flex img {
 	display: inline-block;
 	width: 200px;
 	margin: 0 20px;
 }
 
-.sec3_3 .logos .row {
-	text-align: center;
-}
+
 /* Section 4 (3) */
 	
 .sec4_3{
