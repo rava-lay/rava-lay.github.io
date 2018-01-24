@@ -1908,7 +1908,7 @@ Landing 3
 	left:-35px;
 	top:0;
 	width:2px;
-	height:640px;
+	height:800px;
 	background:#ebeeef;
 }
 	
@@ -13524,7 +13524,24 @@ Landing 4 - Desktop App
 
 
 
-
+.sec1_20 phone:nth-child(1) {
+	font-size: 18px;
+}
+.sec1_20 span:nth-child(2) {
+	font-size: 18px;
+	height: 42px;
+}
+.sec1_20 .col:nth-child(1) > span:nth-child(1) {
+	font-size: 18px;
+	height: 40px;
+}
+.sec1_20 .col.bordered {
+	font-weight: 300;
+	font-style: normal;
+}
+.sec1_20 span:nth-child(3) {
+	height: 69px;
+}
 
 
 
