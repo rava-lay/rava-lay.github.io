@@ -136,7 +136,7 @@ h2.small{
 }
 
 h2.white{
-	color:#fff;
+	color: rgba(255, 255, 255, 1);
 }
 
 h2.left{
@@ -3243,12 +3243,12 @@ Landing 4 - Desktop App
 }
 
 .sec4_5_btn.white, .sec4_5_btn.white:focus{
-	border:2px solid #fff;
-	color:#fff;
+	border:2px solid rgba(255, 255, 255, 1);
+	color:rgba(255, 255, 255, 1);
 }
 
 .sec4_5_btn.white:hover{
-	color:#fff;
+	color:rgba(255, 255, 255, 1);
 }
 
 .sec4_5_btn.green, .sec4_5_btn.green:focus{
@@ -3773,12 +3773,12 @@ Landing 4 - Desktop App
 }
 
 .sec1_6_block_btn.white, .sec1_6_block_btn.white:focus{
-	background:#fff;
+	background:rgba(255, 255, 255, 1);
 	color:#222328;
 }
 
 .sec1_6_block_btn:hover{
-	color:#fff;
+	color:rgba(255, 255, 255, 1);
 	background:#e50d54;
 }
 
@@ -13535,13 +13535,23 @@ Landing 4 - Desktop App
 }
 
 
+#spickers {
+	background-color: rgba(235, 238, 239, 1);
+}
+
+#partners {
+	background-color: rgba(58, 61, 75, 1);
+}
+
+#price {
+	background-color: rgba(235, 238, 239, 1);
+}
 
 
 
-
-
-
-
+h2 .white {
+	color: rgba(255, 255, 255, 1) !important;
+}
 
 
 
